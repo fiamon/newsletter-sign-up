@@ -87,7 +87,7 @@ nav p {
 .label {
     color: var(--charcoal-grey);
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .email-form {
@@ -114,4 +114,62 @@ nav p {
 .subscribe:hover {
     background: hsl(4, 100%, 67%);
     cursor: pointer;
+}
+
+.error-state {
+    display: flex;
+    justify-content: space-between;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.container-confirmation {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--white);
+    border-radius: 30px;
+    padding: 60px;
+    max-width: 490px;
+}
+
+.container-confirmation img {
+    width: 52px;
+}
+
+.container-confirmation h2 {
+    font-size: 50px;
+}
+
+.container-confirmation p {
+    color: var(--dark-slate-grey);
+    font-size: 16px;
+}
+
+.container-confirmation span {
+    font-weight: bold;
+}
+
+.container-confirmation button {
+    padding: 15px 30px;
+    width: 100%;
+    color: var(--white);
+    background-color: var(--dark-slate-grey);
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+    border: none;
+}
+
+.container-confirmation button:hover {
+    background: hsl(4, 100%, 67%);
+    cursor: pointer;
+}
+
+.none {
+    display: none;
 }

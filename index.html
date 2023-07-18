@@ -9,8 +9,8 @@
 </head>
 <body>
 
-  <main>
-    <div class="container">
+  <main class="">
+    <div id="main" class="container">
       <nav>
         <div class="header">
           <h1 class="tittle">Stay updated!</h1>
@@ -32,18 +32,34 @@
           </div>
         </div>
         <div class="form">
-          <small class="label">Email addres</small>
+          <div class="error-state">
+            <small class="label">Email addres</small> <small class="error none" id="error">Valid email required</small>
+          </div>
           <input type="email" name="email" class="email-form" id="emailAddress" placeholder="email@company.com"> <br>
-          <button class="subscribe">Subscribe to monthly newsletter</button>
+          <button id="subscribe" class="subscribe">Subscribe to monthly newsletter</button>
         </div>
-
       </nav>
 
       <aside>
         <img src="/assets/images/illustration-sign-up-desktop.svg" alt="aside image">
       </aside>
     </div>
+
+    <section id="confirm" class="none">
+      <div class="container-confirmation">
+        <img src="./assets/images/icon-success.svg" alt="">
+
+        <h2>Thanks for subscribing!</h2>
+
+        <p>A confirmation email has been sent to <span>ash@loremcomapany.com</span>. Please open it and click the button inside to cofirm your subscription.</p>
+        
+        <button>Dimiss message</button>
+      </div>
+    </section>
+
   </main>
+
+
 
 <script src="./scripts/script.js"></script>
 </body>
