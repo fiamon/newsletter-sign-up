@@ -64,17 +64,7 @@ nav p {
     gap: 10px;
 }
 
-.benefits-first {
-    display: flex;
-    gap: 15px;
-}
-
-.benefits-second {
-    display: flex;
-    gap: 15px;
-}
-
-.benefits-third {
+.benefits-first, .benefits-second, .benefits-third {
     display: flex;
     gap: 15px;
 }
@@ -125,6 +115,8 @@ nav p {
     color: red;
     font-weight: bold;
 }
+
+/* Sucess  */
 
 .container-confirmation {
     display: flex;

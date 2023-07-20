@@ -14,18 +14,14 @@
       <nav>
         <div class="header">
           <h1 class="tittle">Stay updated!</h1>
-          
           <p>Join 60,000+ product managers receiving monthly updates on:</p>
-
           <div class="benefits">
             <div class="benefits-first">
               <img src="assets/images/icon-list.svg" alt="icon"> <span>Product discovery and building what matters</span>
             </div>
-
             <div class="benefits-second">
               <img src="assets/images/icon-list.svg" alt="icon"> <span>Measuring to ensure updates are a sucess</span>
             </div>
-
             <div class="benefits-third"> 
               <img src="assets/images/icon-list.svg" alt="icon"> <span>And Much more!</span>
             </div>
@@ -36,31 +32,22 @@
             <small class="label">Email addres</small> <small class="error none" id="error">Valid email required</small>
           </div>
           <input type="email" name="email" class="email-form" id="emailAddress" placeholder="email@company.com"> <br>
-          <button id="subscribe" class="subscribe">Subscribe to monthly newsletter</button>
+          <button id="subscribe" type="submit" class="subscribe">Subscribe to monthly newsletter</button>
         </div>
       </nav>
-
       <aside>
         <img src="/assets/images/illustration-sign-up-desktop.svg" alt="aside image">
       </aside>
     </div>
-
     <section id="confirm" class="none">
       <div class="container-confirmation">
         <img src="./assets/images/icon-success.svg" alt="">
-
         <h2>Thanks for subscribing!</h2>
-
-        <p>A confirmation email has been sent to <span>ash@loremcomapany.com</span>. Please open it and click the button inside to cofirm your subscription.</p>
-        
-        <button>Dimiss message</button>
+        <p>A confirmation email has been sent to <span id="customerEmail"></span>. Please open it and click the button inside to cofirm your subscription.</p>
+        <button id="back">Dimiss message</button>
       </div>
     </section>
-
   </main>
-
-
-
 <script src="./scripts/script.js"></script>
 </body>
 </html>
